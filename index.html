@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<link href="./style.css" rel="stylesheet">
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<title>Rushikesh's Portfolio</title>
+	<link rel="shortcut icon" href="icon.ico" />
+</head>
+
+<body onload="hideLoading();">
+	<div class="loading" id="loading">
+		<div class="spinner_box">
+			<div class="pulse_container">
+				<div class="pulse_bubble pulse_bubble-1"></div>
+				<div class="pulse_bubble pulse_bubble-2"></div>
+				<div class="pulse_bubble pulse_bubble-3"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="landing">
+		<header class="l-header landing body-font">
+			<nav class="nav bd-grid">
+				<div>
+					<a href="#" class="text-xl title-font"><img src="./images/hi.webp" class="inline" height="35px"
+							width="35px" style="margin-top: -10px;"> Rushikesh Shirke </a>
+				</div>
+
+				<div class="nav_menu text-white" id="nav-menu">
+					<ul class="nav_list">
+						<li class="nav_item text-sm text-base"><a href="#home" class="nav_link active">Home</a></li>
+						<li class="nav_item text-sm text-base"><a href="#about" class="nav_link">About</a></li>
+						<li class="nav_item text-sm text-base"><a href="#skills" class="nav_link">Skills</a></li>
+						<li class="nav_item text-sm text-base"><a href="#project" class="nav_link">Projects</a></li>
+						
+						</li>
+					</ul>
+				</div>
+
+				<div class="nav_toggle" id="nav-toggle">
+					<i class='bx bx-menu'></i>
+				</div>
+			</nav>
+		</header>
+	</div>
+
+	<div class="landing">
+
+		<section id="home">
+
+			<section class="text-gray-600 body-font ">
+				<div class="container mx-auto flex px-7 py-24 md:flex-row flex-col items-center h-screen">
+					<div
+						class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+						<h1
+							class="line-1 anim-typewriter title-font sm:text-4xl text-4xl lg:text-5xl mb-4 font-medium text-gray-900 caption">
+							Hello, <span class="text-indigo-100 lg:text-5xl">I'm Rushikesh!</span>
+						</h1>
+						<!-- <h2 class="line-1 anim-typewriter" id="codespeedy">I'm Pratik</h2> -->
+						<!-- <p class="line-1 anim-typewriter">Animation typewriter style using css steps()</p> -->
+						<h3 class="mb-8 text-2xl text-gray-100 caption">A Technology <span
+								style="background-color: white; color: orangered; padding-left: 5px; padding-right: 5px; border-radius: 7px;">Enthusiast</span>
+							, rather than a Software Engineer.</h3>
+						
+					</div>
+					<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+						<!-- <img class="object-cover object-center rounded-full " alt="hero"
+							src="./images/profile-pic4.png"> -->
+							<video class="rounded about_img" autoplay muted loop src="./images/emoji.mp4"
+									style="height: auto; width: auto; border-radius: 100px;">
+					</div>
+			</section>
+
+		</section>
+	</div>
+	<hr class="divide-y-4 divide-yellow-600 divide-dashed" />
+
+	<section>
+		<section class="text-gray-600 body-font lg:h-auto" style="background-color: #FAFAFF;" id="about">
+			<div class="container px-5 py-24 mx-auto flex flex-col">
+				<div class="lg:w-5/6 mx-auto">
+					<div class="flex flex-col text-center w-full mb-20 flex-wrap content-center lg:mt-10">
+						<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">About</h1>
+						<div class="h-1 w-13 bg-indigo-500 rounded"></div>
+					</div>
+					<div class="flex flex-col sm:flex-row mt-10">
+						<div class="sm:w-1/3 text-center inline-flex items-center justify-center sm:pr-8 sm:py-8">
+							<div class="w-70 h-70 text-gray-400 lg:pr-6">
+								<img class="rounded about_img" src="./images/about.png"
+									style="background-color: rgb(238, 238, 238); height: auto; width: auto; border-radius: 50px;">
+							</div>
+						</div>
+						<div
+							class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left lg:pl-14">
+							<p class="about_text text-justify flex leading-relaxed lg:text-2xl mb-4">
+								🚀 I am a passionate tech enthusiast driven by the art of building impactful products. Proficient in Java and JavaScript, I specialize in React.js, Node.js, and Spring Boot, with a keen interest in DevOps to streamline development and deployment. <br><br>
+
+								🧑‍💻 Successfully completed the CDAC program (Aug 2024 – Feb 2025), equipping myself with cutting-edge skills in advanced computing. <br><br> 
+
+								☕️ Rapid prototyper, team collaborator, and product-mindful developer. <br>
+							</p>
+							<p class="about_text text-justify flex leading-relaxed lg:text-2xl mb-4">
+								I firmly believe that a product's success is based on the understanding of its vision, impact, and innovative capabilities.
+							</p> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+
+
+	<hr />
+
+	<section class="text-gray-600 body-font overflow-hidden" id="skills">
+		<div class="container px-20 py-24 mx-auto">
+			<div class="flex flex-col text-center w-full mb-20 flex-wrap content-center lg:mt-10">
+				<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Skills</h1>
+				<div class="h-1 w-20 bg-indigo-500 rounded"></div>
+			</div>
+			<div class="flex flex-wrap -m-4">
+				<div class="p-4 xl:w-1/4 md:w-1/2 w-full skills_block">
+					<div
+						class="h-full p-6 rounded-lg border-2 border-indigo-300 flex flex-col relative overflow-hidden transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
+						<h1 class="text-2xl text-indigo-900 pb-4 mb-4 border-b border-gray-200 leading-none font-bold">
+							Programming Languages</h1>
+						<h3 class="text-lg title-font mb-2 font-medium"><span><img class="inline"
+									src="./images/java.svg" height="27px" width="27px"></i></span> Java</h3>
+						<!-- <h3 class="text-lg title-font mb-2 font-medium"><span><img class="inline"
+									src="./images/python.svg" height="27px" width="27px"></span> Python</h3> -->
+						<h3 class="text-lg title-font mb-2 font-medium"><span><img class="inline" src="./images/js.svg"
+									height="27px" width="27px"></i></span> JavaScript</h3>
+						<!-- <h3 class="text-lg title-font mb-2 font-medium"><span><img class="inline" src="./images/ts.svg"
+									height="27px" width="27px"></i></span> TypeScript</h3> -->
+						<h3 class="text-lg title-font mb-2 font-medium"><span><img class="inline" src="./images/c.svg"
+									height="33px" width="33px" style="margin-left: -3px;"></span> C</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><span><img class="inline"
+									src="./images/cplus.svg" height="27px" width="27px"></span> C++</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><span><img class="inline"
+										src="./images/Logo_C_sharp.svg" height="27px" width="27px"></span> C#</h3>
+
+					</div>
+				</div>
+				<div class="p-4 xl:w-1/4 md:w-1/2 w-full skills_block">
+					<div
+						class="h-full p-6 rounded-lg border-2 border-indigo-300 flex flex-col relative overflow-hidden transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
+						<h1 class="text-2xl text-indigo-900 pb-4 mb-4 border-b border-gray-200 leading-none font-bold">
+							Web Development</h1>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/React.svg"
+								height="27px" width="27px"> React</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/angular.svg"
+								height="27px" width="27px"> Angular</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/Node.svg"
+								height="23px" width="23px"> Node</h3>
+						<!-- <h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/Django.svg"
+								height="20px" width="20px"> Django</h3> -->
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/HTML.svg"
+								height="27px" width="27px"> HTML</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/CSS.svg"
+								height="27px" width="27px"> CSS</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/Boot.svg"
+								height="27px" width="27px"> Bootstrap</h3>
+								<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/ASP.NET-MVC.svg"
+									height="27px" width="27px"> ASP.NET-MVC </h3>
+
+					</div>
+				</div>
+				<div class="p-4 xl:w-1/4 md:w-1/2 w-full skills_block">
+					<div
+						class="h-full p-6 rounded-lg border-2 border-indigo-300 flex flex-col relative overflow-hidden transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
+						<h1 class="text-2xl text-indigo-900 pb-4 mb-4 border-b border-gray-200 leading-none font-bold">
+							Cloud</h1>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/aws.svg"
+								height="23px" width="23px"> AWS</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline"
+								src="./images/jenkins.svg" height="20px" width="20px"> Jenkins (CICD)</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/docker.svg"
+								height="23px" width="23px"> Docker</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/kubernetes.svg"
+								height="23px" width="23px"> Kubernetes</h3>
+						<!-- <h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/terraform.svg"
+								height="23px" width="23px"> Terraform (IaC)</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/ansible.svg"
+							height="23px" width="23px"> Ansible</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/bash.svg"
+							height="23px" width="23px"> BASH Scripting </h3> -->
+					</div>
+				</div>
+				<div class="p-4 xl:w-1/4 md:w-1/2 w-full skills_block">
+					<div
+						class=" h-full p-6 rounded-lg border-2 border-indigo-300 flex flex-col relative overflow-hidden transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
+						<h1 class="text-2xl text-indigo-900 pb-4 mb-4 border-b border-gray-200 leading-none font-bold">
+							Databases</h1>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/MySQL.svg"
+								height="23px" width="23px"> MySQL</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/Mongo.svg"
+								height="23px" width="23px"> MongoDB</h3>
+						
+						<!-- <h1 class="text-2xl text-indigo-900 pb-4 mb-4 mt-4 border-b border-gray-200 leading-none font-bold">
+							Machine Learning</h1>
+
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/Algo.svg"
+								height="23px" width="23px"> Algorithms</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline"
+								src="./images/TensorFlow.svg" height="20px" width="20px"> TensorFlow</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/Numpy.svg"
+								height="23px" width="23px"> Numpy</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/Pandas.svg"
+								height="23px" width="23px"> Pandas</h3> -->
+								<h1 class="text-2xl text-indigo-900 pb-4 mb-4 mt-4 border-b border-gray-200 leading-none font-bold">
+									Backend & Frameworks</h1>
+
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline" src="./images/spring-boot-logo.svg"
+								height="23px" width="23px"> Spring Boot</h3>
+						<h3 class="text-lg title-font mb-2 font-medium"><img class="inline"
+								src="./images/NET_Core_Logo.svg" height="20px" width="20px"> ASP.NET Core</h3>
+						
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<hr />
+
+	<section>
+		<section class="text-gray-600 body-font overflow-hidden" style="background-color: #FAFAFF;" id="project">
+			<div class="container px-20 py-24 mx-auto">
+				<div class="flex flex-wrap w-full mb-20">
+
+					<div class="flex flex-col flex-wrap text-center w-full mb-flex-wrap content-center lg:mt-10">
+						<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Projects</h1>
+						<div class="h-1 w-20 bg-indigo-500 rounded"></div>
+					</div>
+
+				</div>
+
+
+				<div class="flex flex-wrap -m-4">
+
+					<div class="xl:w-1/4 md:w-1/2 lg:p-4 p-2 project_card">
+						<a href="https://github.com/Rushi-Shirke/Interactive-Coding-Challages-Platform.git"
+							target="_blank">
+							<div class=" bg-white h-full pro-card pt-0 rounded-lg border-2 border-gray-200 transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-110"
+								style="cursor: pointer;">
+								<img class="rounded w-full object-center mb-4 pro-click" src="./images/codefusion.png"
+									alt="content" style="height: 25vh;">
+								<h3 class=" text-indigo-500 text-xs font-medium title-font lg:pl-6 pl-3 pr-3 leading-6">
+									React.js, Spring Boot</h3>
+								<h2 class="text-lg text-gray-900 font-medium title-font lg:pl-6 pl-3 pr-3">CodeFusion: Interactive Coding Challange Platform</h2>
+								<!-- <h4
+									class="text-white text-xs font-medium mb-8 lg:ml-6 ml-3 bg-indigo-500 rounded text-wrap">
+									&nbsp;Google developer contest&nbsp;
+								</h4> -->
+							</div>
+						</a>
+					</div>
+
+
+					<div class="xl:w-1/4 md:w-1/2 lg:p-4 lg:p-4 pb-4 p-2 project_card">
+						<a href="https://github.com/Chordz-Technologies/Meet-My-Artist-Admin-Panel.git" target="_blank">
+
+							<div class=" bg-white h-full pro-card pt-0 rounded-lg border-2 border-gray-200 transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-110"
+								style="cursor: pointer;">
+								<img class="rounded w-full object-center object-cover mb-4 pro-click"
+									src="./images/meetMyArtist_adminPanel.png" alt="Secure_platform_image" style="height: 25vh;">
+								<h3 class="text-indigo-500 text-xs font-medium title-font lg:pl-6 pl-3 pr-3 leading-6">
+									Angular.js</h3>
+								<h2 class="text-lg text-gray-900 font-medium title-font lg:pl-6 pl-3 pr-3">Meet My Artist: Admin Panel</h2>
+								<h2 class="text-lg text-gray-900 font-medium title-font lg:pl-6 pl-3 pr-3">A web app for seamless artist hiring by organizers</h2>
+							</div>
+						</a>
+					</div>
+
+					
+
+					<!-- <div class="xl:w-1/4 md:w-1/2 lg:p-4 pb-4 p-2 project_card">
+						<a href="https://github.com/pandykad/GitOps-pipeline" target="_blank">
+
+							<div class="bg-white h-full pro-card pt-0 rounded-lg border-2 border-gray-200 transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-110"
+								style="cursor: pointer;">
+								<img class="rounded w-full object-center object-cover mb-4 pro-click"
+									src="./images/CICD.webp" alt="content" style="height: 25vh;">
+								<h3 class=" text-indigo-500 text-xs font-medium title-font lg:pl-6 pl-3 pr-3 leading-6">
+									Jenkins, Docker, Kubernetes, ArgoCD</h3>
+								<h2 class="text-lg text-gray-900 font-medium title-font mb-4 lg:pl-6 pl-3 pr-3">GitOps
+									CI/CD Pipeline</h2>
+							</div>
+						</a>
+					</div>
+
+					<div class="xl:w-1/4 md:w-1/2 lg:p-4 pb-4 p-2 project_card">
+						<a href="https://github.com/pandykad/Reddit-sarcasm" target="_blank">
+							<div class="bg-white h-full pro-card pt-0 rounded-lg border-2 border-gray-200 transition duration-500 ease-in-out hover:shadow-xl transform hover:-translate-y-1 hover:scale-110"
+								style="cursor: pointer;">
+								<img class="rounded w-full object-center object-cover mb-4 pro-click"
+									src="./images/reddit.webp" alt="content" style="height: 25vh;">
+								<h3 class=" text-indigo-500 text-xs font-medium title-font lg:pl-6 pl-3 pr-3 leading-6">
+									NLP, ML, LSTM, Batch Processing</h3>
+								<h2 class="text-lg text-gray-900 font-medium title-font lg:mb-4 lg:pl-6 pl-3 pr-3">
+									Uncovering Sarcasm on Reddit!</h2>
+							</div>
+						</a>
+					</div> -->
+
+
+
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<hr />
+
+
+
+	<hr />
+
+	<section>
+
+		
+
+	</section>
+
+	<footer class="text-gray-600 body-font landing">
+		<div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+			<a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+				<img src="./images/thanks.webp" height="80px" width="80px">
+				<span class="ml-3 text-xl">Rushikesh Shirke</span>
+			</a>
+			<p
+				class="text-sm text-indigo-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 bg-blue-100 text-center rounded lg:pr-14">
+				Thanks for visiting!<br>
+				<a class="text-gray-600 ml-1" target="_blank">If you liked my work, then please feel free to contact
+					me.</a>
+			</p>
+			<span
+				class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start bg-blue-100 lg:p-3 rounded p-2">
+
+				<a class="ml-1 text-gray-500" href="https://github.com/Rushi-Shirke" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+						style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M12.026,2c-5.509,0-9.974,4.465-9.974,9.974c0,4.406,2.857,8.145,6.821,9.465 c0.499,0.09,0.679-0.217,0.679-0.481c0-0.237-0.008-0.865-0.011-1.696c-2.775,0.602-3.361-1.338-3.361-1.338 c-0.452-1.152-1.107-1.459-1.107-1.459c-0.905-0.619,0.069-0.605,0.069-0.605c1.002,0.07,1.527,1.028,1.527,1.028 c0.89,1.524,2.336,1.084,2.902,0.829c0.091-0.645,0.351-1.085,0.635-1.334c-2.214-0.251-4.542-1.107-4.542-4.93 c0-1.087,0.389-1.979,1.024-2.675c-0.101-0.253-0.446-1.268,0.099-2.64c0,0,0.837-0.269,2.742,1.021 c0.798-0.221,1.649-0.332,2.496-0.336c0.849,0.004,1.701,0.115,2.496,0.336c1.906-1.291,2.742-1.021,2.742-1.021 c0.545,1.372,0.203,2.387,0.099,2.64c0.64,0.696,1.024,1.587,1.024,2.675c0,3.833-2.33,4.675-4.552,4.922 c0.355,0.308,0.675,0.916,0.675,1.846c0,1.334-0.012,2.41-0.012,2.737c0,0.267,0.178,0.577,0.687,0.479 C19.146,20.115,22,16.379,22,11.974C22,6.465,17.535,2,12.026,2z">
+						</path>
+					</svg>
+				</a>
+
+				<a class="ml-3 text-gray-500" href="mailto:rushishirke2@gmail.com" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+						style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+						<path
+							d="M20,4H6C4.897,4,4,4.897,4,6v5h2V8l6.4,4.8c0.178,0.133,0.389,0.2,0.6,0.2s0.422-0.067,0.6-0.2L20,8v9h-8v2h8 c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M13,10.75L6.666,6h12.668L13,10.75z">
+						</path>
+						<path d="M2 12H9V14H2zM4 15H10V17H4zM7 18H11V20H7z"></path>
+					</svg>
+				</a>
+
+				<a class="ml-3 text-gray-500" href="https://www.instagram.com/rushi__shirke?igsh=MzRlODBiNWFlZA==" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+						style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+						<path
+							d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z">
+						</path>
+						<circle cx="16.806" cy="7.207" r="1.078"></circle>
+						<path
+							d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z">
+						</path>
+					</svg>
+				</a>
+				<a class="ml-3 text-gray-500" href="https://www.linkedin.com/in/rushikesh-shirke-8158171b9/" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+						style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+						<circle cx="4.983" cy="5.009" r="2.188"></circle>
+						<path
+							d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zM3.095 8.855H6.87V20.994H3.095z">
+						</path>
+					</svg>
+				</a>
+			</span>
+		</div>
+	</footer>
+
+
+</body>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+
+</html>
